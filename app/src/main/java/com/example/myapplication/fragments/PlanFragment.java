@@ -126,7 +126,7 @@ public class PlanFragment extends Fragment {
     }
 
     /**
-     *
+     *:
      */
     private void addListener() {
         state.setOnClickListener(new View.OnClickListener() {

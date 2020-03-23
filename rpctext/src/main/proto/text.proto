@@ -1,0 +1,16 @@
+syntax = "proto3";
+package com.rpc.proto;
+option  java_package = "com.rpc.proto";
+option  java_outer_classname = "TextProto";
+option  java_multiple_files = true;
+
+service TextServer{
+    rpc server(Request) returns(Response){}
+}
+message Request {
+    string request = 1;
+}
+
+message Response {
+    string response = 1;
+}

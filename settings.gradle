@@ -1,2 +1,2 @@
-include ':app', ':rpctext'
+include ':app'
 rootProject.name='My Application'
